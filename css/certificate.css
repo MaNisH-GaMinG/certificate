@@ -1,0 +1,46 @@
+
+.fullscreen {
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fullscreen img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    /* Optional: Add border radius */
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Adjustments for certificate cards */
+.certificate {
+    padding: 15px;
+    /* Adjust padding as needed */
+    transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+}
+
